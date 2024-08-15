@@ -1,0 +1,22 @@
+.header{
+	display: flex;
+	height: 100px;
+	padding: 2rem;
+	gap: 1rem;
+	align-items: center;
+	color: white;
+	background-color: var(--blue-clr);
+	font-weight: 500;
+}
+
+.header-navlink{
+	gap: 2rem;
+}
+
+a{
+	color: var(--lightblue-clr);
+}
+
+a:hover{
+
+}

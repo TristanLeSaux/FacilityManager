@@ -1,5 +1,5 @@
 export default function Resources(){
     return(
-        <>RESOURCES</>
+        <h1>RESOURCES</h1>
     )
 }
