@@ -2,21 +2,32 @@
 	display: flex;
 	height: 100px;
 	padding: 2rem;
-	gap: 1rem;
+	gap: 2rem;
 	align-items: center;
 	color: white;
 	background-color: var(--blue-clr);
-	font-weight: 500;
+	font-weight: 300;
 }
 
-.header-navlink{
+.navlink{
+	display: flex;
 	gap: 2rem;
 }
 
-a{
+.logo {
+	max-height: 100%;
+}
+
+.header a{
 	color: var(--lightblue-clr);
+	text-decoration: none;
+	font-size: large;
 }
 
 a:hover{
 
+}
+
+a.active {
+	text-decoration: underline;
 }

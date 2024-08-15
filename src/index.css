@@ -24,5 +24,8 @@ h1 {
 }
 
 .body-content {
+  
+  display: flex;
   padding: 1rem;
+  flex: 1;
 }
