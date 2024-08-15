@@ -1,4 +1,3 @@
-import Flex from "@/components/common/Flex";
 import '@/styles/Header.css'
 
 export default function Header(){
