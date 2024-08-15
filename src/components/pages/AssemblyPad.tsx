@@ -1,7 +1,7 @@
-export default function Resources() {
+export default function AssemblyPad() {
     return (
         <div className="page-content">
-            <h1>RESOURCES</h1>
+            <h1>Assembly Pad</h1>
         </div>
     )
 }
