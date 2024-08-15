@@ -13,7 +13,7 @@ export default function Header() {
 
 	const navLinks = [
 		{ link: "resources", label: "Resources" },
-		{ link: "b", label: "Assembly Pad" },
+		{ link: "assemblypad", label: "Assembly Pad" },
 		{ link: "c", label: "Facilities" },
 		{ link: "d", label: "Regiments" },
 	];

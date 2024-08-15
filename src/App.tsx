@@ -3,6 +3,7 @@ import MainLayout from './Layouts/MaintLayout';
 import ErrorPage from '@/Layouts/ErrorPage';
 import PageNotFound from '@/Layouts/NotFound';
 import Resources from '@/components/pages/Resources';
+import AssemblyPad from './components/pages/AssemblyPad';
 
 function App() {
     return (
@@ -11,6 +12,7 @@ function App() {
                 <Route path="/" element={<MainLayout />}>
                     <Route index element={<Navigate to="/" replace />} />
                     <Route path="resources" element={<Resources />} />
+                    <Route path="assemblypad" element={<AssemblyPad/>} />
                     <Route path="*" element={<PageNotFound />} />
                 </Route>
                 <Route path="*" element={<ErrorPage />} />
