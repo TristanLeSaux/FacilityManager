@@ -1,12 +1,9 @@
 import { resourceListExample } from "@/utils/list";
+import '@/styles/Table.css'
+import GenericTable from "../tables/GenericTable";
+import { ResourcesParameter } from "../tables/TableParameter";
 
 export default function Resources() {
-	const resourcesParameter = [
-		"Name",
-		"Emote",
-		"Temps",
-		"Category",
-	];
 
 	const dataListe = resourceListExample;
 
@@ -14,26 +11,11 @@ export default function Resources() {
 		<div className="page-content">
 			<h1>RESOURCES</h1>
 
-			<table className="table-display">
-				<thead>
-					<tr>
-						{resourcesParameter.map((string, index) => (
-							<th key={index}>{string}</th>
-						))}
-					</tr>
-				</thead>
-				<tbody>
+			<GenericTable
+				tableParameters={ResourcesParameter()}
+				data={dataListe}
 
-					{dataListe && dataListe.map((resource) => (
-						<tr>
-							<td>{resource.name}</td>
-							<td>{resource.emote}</td>
-							<td>{resource.temps}</td>
-							<td>{resource.category.name}</td>
-						</tr>
-					))}
-				</tbody>
-			</table>
+			/>
 		</div>
 	)
 }

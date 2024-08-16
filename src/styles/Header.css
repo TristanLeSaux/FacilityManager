@@ -1,6 +1,6 @@
 .header{
 	display: flex;
-	height: 100px;
+	height: 7vh;
 	padding: 2rem;
 	gap: 2rem;
 	align-items: center;
@@ -16,13 +16,14 @@
 }
 
 .logo {
-	max-height: 90px;
+	max-height: 6vh;
 }
 
 .header a{
 	color: var(--lightblue-clr);
 	text-decoration: none;
 	font-size: large;
+	max-height: 6vh;
 }
 
 a:hover{
